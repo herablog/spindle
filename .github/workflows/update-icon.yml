@@ -1,0 +1,17 @@
+name: Update Icon
+
+on:
+  repository_dispatch:
+    # Figma sends event as event_type equals LIBRARY_PUBLISH
+    # see https://www.figma.com/developers/api#webhooks-v2-events
+    types: [PING, LIBRARY_PUBLISH]
+
+jobs:
+  update-icon:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 13
+      - run: echo "OK"
