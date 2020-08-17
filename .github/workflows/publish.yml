@@ -20,5 +20,5 @@ jobs:
           npm whoami
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - name: Publishing with lerna
-        run: npx lerna publish from-git
+      # - name: Publishing with lerna
+      #   run: npx lerna publish from-git
