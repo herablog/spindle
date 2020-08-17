@@ -3,7 +3,7 @@ name: publishing
 on:
   push:
     tags:
-      - '@openameba*'
+      - '*'
 
 jobs:
   publish:
