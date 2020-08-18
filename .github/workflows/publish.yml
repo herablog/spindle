@@ -1,9 +1,8 @@
 name: publishing
 
 on:
-  push:
-    tags:
-      - '@openameba/*'
+  release:
+    types: [published]
 
 jobs:
   publish:
