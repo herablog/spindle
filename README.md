@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Spindle" height="400" style="height: auto;" src="./docs/images/spindle-logo.png" width="400">
+  <img alt="Spindle" src="./docs/images/spindle-logo.png" width="400">
 </p>
 
 # Spindle (In development)
