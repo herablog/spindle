@@ -1,5 +1,7 @@
 <p align="center">
-  <img alt="Spindle" src="./docs/images/spindle-logo.png" width="400">
+  <a href="https://github.com/herablog/spindle/">
+    <img alt="Spindle" width="200" src="./docs/images/spindle-logo.png">
+  </a>
 </p>
 
 # Spindle (In development)
