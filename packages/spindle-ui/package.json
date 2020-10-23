@@ -38,7 +38,7 @@
   "dependencies": {
     "@types/react": "^16.9.43",
     "ameba-color-palette.css": "openameba/ameba-color-palette.css#v3.0.0-beta.0",
-    "react": "^16.13.1"
+    "react": "^17.0.0"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^5.3.19",
