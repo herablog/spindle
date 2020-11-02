@@ -22,5 +22,5 @@ jobs:
           NODE_ID: ${{ secrets.FIGMA_ICON_NODE_ID }}
           ICON_NAMES: clock
         run: |
-          echo '{ "fileKey": "$FILE_KEY", "nodeId": "$NODE_ID", "dest": "dist", "iconNames": "$ICON_NAMES" }' > packages/spindle-icons/figma.json
+          echo { "fileKey": "$FILE_KEY", "nodeId": "$NODE_ID", "dest": "dist", "iconNames": "$ICON_NAMES" } > packages/spindle-icons/figma.json
           cat packages/spindle-icons/figma.json
