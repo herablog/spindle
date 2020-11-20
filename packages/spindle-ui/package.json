@@ -36,7 +36,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@types/react": "^16.9.43",
+    "@types/react": "^17.0.0",
     "ameba-color-palette.css": "openameba/ameba-color-palette.css#v3.0.0-beta.0",
     "react": "^16.13.1"
   },
