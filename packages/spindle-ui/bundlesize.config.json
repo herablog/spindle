@@ -2,19 +2,27 @@
   "files": [
     {
       "path": "./dist/Icon/index.js",
-      "maxSize": "5 kB"
+      "maxSize": "5.5 kB"
     },
     {
-      "path": "./dist/Icon/!(index).js",
+      "path": "./dist/Icon/@(OnedariFill|Peta).js",
+      "maxSize": "2.1 kB"
+    },
+    {
+      "path": "./dist/Icon/!(index|OnedariFill|Peta).js",
       "maxSize": "1.5 kB"
     },
     {
       "path": "./dist/!(Icon)/*.js",
-      "maxSize": "1 kB"
+      "maxSize": "1.5 kB"
+    },
+    {
+      "path": "./dist/**/!(index).css",
+      "maxSize": "1.5 kB"
     },
     {
       "path": "./dist/index.css",
-      "maxSize": "3 kB"
+      "maxSize": "5 kB"
     }
   ]
 }

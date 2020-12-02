@@ -1,21 +1,9 @@
 module.exports = {
-  stories: ['../src/index.stories.ts', '../src/**/*.stories.tsx'],
+  stories: ['../src/**/*.stories.@(ts|tsx|mdx)'],
   addons: [
     '@storybook/addon-actions',
     '@storybook/addon-a11y',
-  ],
-  webpackFinal(config) {
-    config.module.rules.push({
-      test: /\.tsx?$/,
-      use: [
-        {
-          loader: require.resolve('ts-loader'),
-        },
-      ],
-    });
-
-    config.resolve.extensions.push('.ts', '.tsx');
-
-    return config;
-  },
+    '@storybook/addon-docs',
+    '@storybook/addon-viewport',
+  ]
 };

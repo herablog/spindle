@@ -2,9 +2,9 @@
  * InputLabel
 */
 .spui-InputLabel {
-  color: var(--color-text-mid-emphasis);
+  color: var(--color-text-medium-emphasis);
   display: block;
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: bold;
   line-height: 1.4;
 }

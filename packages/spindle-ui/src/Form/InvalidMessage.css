@@ -4,7 +4,7 @@
 .spui-InvalidMessage {
   color: var(--color-text-caution);
   display: block;
-  font-size: 12px;
+  font-size: 0.75em;
   font-weight: bold;
   line-height: 1.4;
   margin: 8px 0 0;
@@ -14,4 +14,10 @@
 
 .spui-InvalidMessage[hidden] {
   display: none;
+}
+
+.spui-InvalidMessage-icon {
+  font-size: 1.33em;
+  margin-right: 0.25em;
+  vertical-align: middle;
 }
