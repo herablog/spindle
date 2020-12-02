@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Extract branch name
-        run: echo "::set-output name=name::${GITHUB_REF##*/}"
+        run: echo "::set-output name=name::${GITHUB_REF#refs/*/}"
         id: extract_branch
       - name: Create Pull Request
         run: |
