@@ -8,6 +8,7 @@
   "includeMergedTags": true,
   "command": {
     "version": {
+      "ignoreChanges": ["*.md"],
       "message": "chore(release): publish",
       "allowBranch": [
         "version/*",
